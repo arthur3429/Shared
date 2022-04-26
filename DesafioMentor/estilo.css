@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #D6E2F0;
+    height: 100vh;
+    
+    /* PRA FAZER ESSA MERDA FUNCIONAR EU TENHO QUE TER MEDIDAS CONHECIDAS PARA USAR AS CARACTERISTICAS DE DISPLAY FLEX */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;    
+    height: 470px;
+    border: 1px solid #7b879d2f;
+}
+
+img {   
+    margin-top: 15px;
+    height: 270px;
+    width: 270px;
+    border-radius: 8px;
+    
+}
+.txt {
+    padding: 15px 20px;
+}
+.box h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.box p {
+    color: #7B879D;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 15px 0px 0px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+footer p strong {
+    text-decoration: none;
+    font-weight: 300;
+    color: #3E52A3;
+}
